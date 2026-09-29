@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Поступления переводов → Excel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <section class="card">
+    <h1>Поступления переводов → Excel</h1>
+    <p class="sub">Файл обрабатывается прямо в вашем браузере и никуда не отправляется.</p>
+    <input type="file" id="file" accept=".pdf,application/pdf">
+    <div id="status"></div>
+  </section>
+  <section class="card" id="result" hidden>
+    <div id="count"></div>
+    <div id="totals"></div>
+    <div id="checks"></div>
+    <button id="dl" type="button">Скачать Excel</button>
+    <div class="scroll"><table id="preview"></table></div>
+  </section>
+</main>
+<script src="vendor/exceljs.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

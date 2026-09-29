@@ -1,0 +1,14 @@
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:#f4f6f9;margin:0;color:#222}
+.wrap{max-width:900px;margin:40px auto;padding:0 16px}
+.card{background:#fff;border-radius:12px;padding:26px;box-shadow:0 2px 10px rgba(0,0,0,.08);margin-bottom:20px}
+h1{margin:0 0 6px;font-size:24px}.sub{margin:0 0 18px;color:#666}
+input[type=file]{display:block;width:100%;box-sizing:border-box;padding:16px;border:2px dashed #9db4d0;border-radius:8px;background:#fafcff}
+button{background:#1f4e78;color:#fff;border:0;border-radius:8px;padding:12px 22px;font-size:16px;cursor:pointer;margin:12px 0}
+button:hover{background:#163a5a}
+#status{margin-top:12px}.err{background:#fdecea;color:#a12622;padding:12px;border-radius:8px}
+.ok{background:#e8f5e9;color:#1b5e20;padding:10px 14px;border-radius:8px;margin:8px 0}
+.warn{background:#fff4e5;color:#8a4b00;padding:10px 14px;border-radius:8px;margin:8px 0}
+.total{font-size:22px;font-weight:700;margin:10px 0}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}
+th{background:#1f4e78;color:#fff;padding:8px;text-align:left}td{padding:7px 8px;border-bottom:1px solid #e3e8ee}
+td.n{text-align:right;white-space:nowrap}
